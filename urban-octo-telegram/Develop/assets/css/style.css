@@ -1,0 +1,156 @@
+/* Over-ruling default CSS */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Background of the entire website */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Styling the header -- everything at the top of the website */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Position and size the items within the header */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Color the 'seo' in Horiseon */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Style items within the header's nav */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Removing the default CSS stle on list items */
+.header nav ul {
+    list-style-type: none;
+}
+
+/* Line up the nav items */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Again removes the default text-decoration and blue color for links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Set a size for all paragraph items */
+p {
+    font-size: 16px;
+}
+
+/* Sets our hero image and it's size and positioning */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* A default class to use on items in our content section */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* A default class to use on items in our content section */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Size and position our content section */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Style each content article */
+.content-article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Each image within these content articles cannot excede 200px height */
+.content-article img {
+    max-height: 200px;
+}
+
+/* Each h2 within the articles will have the same size and margin */
+.content-article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Size, position and style the benefits section */
+#benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Set all benefit divs */
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Each benefit h3 centered with small margin below */
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Each benefit image given the same size and centered within it's div */
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*  Set the footer to be centered at the bottom 
+    Clear both left and right to be sure our footer is completely centered */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Sets footer h2 font to 20px */
+.footer h2 {
+    font-size: 20px;
+}
